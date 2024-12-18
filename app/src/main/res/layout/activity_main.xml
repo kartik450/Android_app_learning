@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+
+<!--        >-->
+
+<!--    </Button>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Hello Baby.Whats going on?"-->
+<!--        -->
+<!--        >-->
+
+<!--    </TextView>-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/1234"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#f58"
+        android:text="Button1">
+
+<!--        android:layout_centerInParent="true"-->
+
+
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/1235"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Button2">
+<!--        android:layout_toRightOf="@+id/1234"-->
+
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/gene_structure_svgrepo_com"
+        >
+
+    </ImageView>
+
+</LinearLayout>
